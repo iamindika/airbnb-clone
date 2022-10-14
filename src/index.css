@@ -28,6 +28,10 @@ body {
   margin: 0 auto;
 }
 
+.bold {
+  font-weight: 600;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -46,3 +50,90 @@ body {
 .hero-image {
   align-self: center;
 }
+
+.card-list {
+  padding: 25px 35px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 18px;
+  overflow-x: auto;
+}
+
+.card {
+  flex: 0 0 176px;
+}
+
+.card-image-container {
+  position: relative;
+  height: 235px;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card-btn {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  padding: 5px 6px;
+  border: none;
+  border-radius: 2px;
+  font-size: 10.25px;
+  font-weight: 400;
+  line-height: 11px;
+  text-align: center;
+  background-color: #FFF;
+  color: #222;
+}
+
+.card-info {
+  margin-top: 9px;
+}
+
+.card-stats {
+  display: flex;
+  align-items: center;
+  line-height: 13px;
+  color: #918E9B;
+}
+
+.card-stats > p {
+  display: flex;
+  margin: 0;
+}
+
+.star-icon {
+  width: 14px;
+  margin-right: 2px;
+}
+
+.card-rating {
+  margin-right: 2px;
+  color: #222;
+}
+
+.card-review {
+  margin-right: 2px;
+  color: #222;
+}
+
+.card-location {
+  margin: 0 2px;
+  color: #222;
+}
+
+.card-title {
+  margin: 8px 0 0;
+  font-weight: 300;
+  line-height: 13px;
+  color: #222;
+}
+
+.card-price {
+  margin: 8px 0 0;
+  line-height: 13px;
+  color: #222;
+}
+
